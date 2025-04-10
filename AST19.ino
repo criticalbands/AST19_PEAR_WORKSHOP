@@ -23,7 +23,6 @@ void loop() {
     randNumberSpeed1 = random(255);  // random number from 0-255
     analogWrite(motorSpeed1, randNumberSpeed1);
     delay(val1);
-
   } else if (randNumber1 == 2) {
     digitalWrite(2, HIGH);
     digitalWrite(3, HIGH);
